@@ -1,0 +1,29 @@
+  .menu-bar__item {
+    margin: auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-bar__item > ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .menu-bar__item > ul > li {
+    border: 1px solid rosybrown;
+    padding: 5px;
+    margin-right: 15px;
+  }
+  
+  .menu-bar__item > ul > li > a {
+    text-decoration: none;
+    padding: 5px;
+    color: rgb(7, 7, 7);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .menu-bar__item > ul > li > a:hover {
+    color: blue;
+    font-weight: 600;
+  }
+  
